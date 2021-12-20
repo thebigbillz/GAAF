@@ -239,6 +239,10 @@
     max-width: 85%;
   }
 
+  body {
+    zoom: 0.95;
+  }
+
   .nav-outer .mobile-nav-toggler {
     display: block;
     margin: 0;

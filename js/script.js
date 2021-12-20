@@ -525,8 +525,10 @@
       var $container = $(".sortable-masonry .items-container");
       var $filter = $(".filter-btns");
 
+      var selector = $filter.find("li.active").attr("data-filter");
+
       $container.isotope({
-        filter: "*",
+        filter: selector,
         masonry: {
           columnWidth: 1,
         },
