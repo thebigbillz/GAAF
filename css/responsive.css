@@ -236,24 +236,24 @@
   }
 
   .main-header .header-lower .logo {
-    max-width: 85%;
+    max-width: 90%;
   }
 
   .nav-outer .mobile-nav-toggler {
     display: block;
     margin: 0;
     padding: 14px 0;
-    font-size: 34px;
+    font-size: 36px;
     margin-left: 20px;
     color: #ab7442;
   }
 
   .fixed-header .sticky-header .logo {
-    padding: 13px 0;
+    padding: 12px 0;
   }
 
   .sticky-header .logo img {
-    max-width: 85%;
+    max-width: 90%;
   }
 
   .main-header .top-left,
