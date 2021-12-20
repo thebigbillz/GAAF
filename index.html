@@ -61,7 +61,7 @@
                 </li>
                 <li>
                   <span class="icon fa fa-envelope"></span>
-                  <a href="mailto:info@gnl.com">info@gnl.com</a>
+                  <a href="mailto:info@gaaflimited.com">info@gaaflimited.com</a>
                 </li>
                 <!--Search Box-->
               </ul>
@@ -946,7 +946,7 @@
                     Fill out the form. Expect Prompt Feedback.
                   </div> -->
                   <!--Comment Form-->
-                  <form action="#" method="post" id="email-form">
+                  <form action="" id="email-form" class="contactForm">
                     <div class="form-group">
                       <div class="response"></div>
                     </div>
@@ -954,9 +954,12 @@
                     <div class="form-group">
                       <input
                         type="text"
+                        id="name"
                         name="username"
                         class="username"
                         placeholder="Your Name *"
+                        required
+                        minlength="3"
                       />
                     </div>
 
@@ -965,18 +968,24 @@
                     <div class="form-group">
                       <input
                         type="text"
+                        id="phone"
                         name="phoneNumber"
                         class="phoneNumber"
                         placeholder="Your Phone Number *"
+                        required
+                        minlength="7"
                       />
                     </div>
 
                     <div class="form-group">
                       <input
                         type="email"
+                        id="email"
                         name="email"
                         class="email"
                         placeholder="Your Email *"
+                        required
+                        
                       />
                     </div>
 
@@ -984,18 +993,21 @@
                       <textarea
                         name="contact_message"
                         class="message"
+                        id="message"
                         placeholder="Text Message"
+                        required
+                        minlength="10"
                       ></textarea>
                     </div>
 
                     <div class="form-group">
                       <button
                         class="theme-btn btn-style-two"
-                        type="button"
+                        type="submit"
                         id="submit"
                         name="submit-form"
                       >
-                        <span class="btn-title">Submit Now</span>
+                        <span class="btn-title submit-titles">Submit Now</span>
                       </button>
                     </div>
                   </form>
@@ -1156,12 +1168,12 @@
                   <div class="widget-content">
                     <ul class="contact-list">
                       <li>
-                        <span class="fa fa-map-marker"></span> 110 & 112 Oyo Road, Ibadan, Nigeria.
+                        <span class="fa fa-map-marker"></span> 110/112 Oyo Road, Ibadan, Nigeria.
                       </li> 
                       <li>
                         <span class="fa fa-envelope"></span>
-                        <a href="mailto:Supportyou@demo.com"
-                          >info@gnl.com</a
+                        <a href="mailto:info@gaaflimited.com"
+                          >info@gaaflimited.com</a
                         >
                       </li>
                       <li>
