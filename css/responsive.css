@@ -687,6 +687,7 @@
     left: 0;
     right: 0;
     margin-top: 70px;
+    display: none;
   }
 
   .main-footer.style-two .footer-bottom .footer-nav {
